@@ -25,12 +25,12 @@ public class pavbhaji
                     System.out.println("2.Pav Bhaji.................................................40.00"); 
                     System.out.println("3.Kada Pav Bhaji............................................45.00"); 
                     System.out.println("4.Tomato Pav Bhaji..........................................50.00"); 
-                    System.out.println("5.Kjsieit's Special Pav Bhaji................................40.00"); 
+                    System.out.println("5.Kjsit's Special Pav Bhaji................................40.00"); 
                     BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
                     String y2=buf.readLine();
                     int choice2=Integer.parseInt(y2);
-                    String z1[]={"Masala Pav","Pav Bhaji","Kada Pav Bhaji","Tomato Pav Bhaji","Kjsieit's Special Pav Bhaji"};
-                    int rate1[]={20,40,45,50,40};
+                    String z1[]={"Masala Pav","Pav Bhaji","Kada Pav Bhaji","Tomato Pav Bhaji","Kjsit's Special Pav Bhaji"};
+                    int rate2[]={20,40,45,50,40};
                     if(choice2==1)
                     {
                         z22[0]="Masala Pav";
@@ -65,11 +65,11 @@ public class pavbhaji
                     }
                     if(choice2==5)
                     {
-                        z22[4]="Kjsieit's Special Pav Bhaji";
+                        z22[4]="Kjsit's Special Pav Bhaji";
                         System.out.println("Enter Quantity");
                         y2=buf.readLine();
                         qty2[4]=qty2[4]+Integer.parseInt(y2);
-                        System.out.println("You have purchased"+qty2[4]+"Kjsieit's Special Pav Bhaji for Rs."+rate2[4]*qty2[4]);
+                        System.out.println("You have purchased"+qty2[4]+"Kjsit's Special Pav Bhaji for Rs."+rate2[4]*qty2[4]);
                     }
                     for(b=0;b<10;b++)
                     {
