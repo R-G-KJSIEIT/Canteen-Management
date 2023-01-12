@@ -13,6 +13,6 @@
 
 ## HOW TO START THIS PROJECT:
 
-### TO start this project simply run the menu.java program
+### To start this project simply run the menu.java program
 
 ## AUTHORS: Arish Manasia
