@@ -1,4 +1,4 @@
-# PROJECT TITLE: Canteen Management
+# Canteen Management
 
 # PURPOSE OF PROJECT:
 
