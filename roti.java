@@ -3,12 +3,12 @@ import java.lang.*;
 import java.util.*;
 public class roti
 {
-    public static String z44[]=new String[6];
+    public static String z44[]=new String[8];
     public static int amount4=0;
     public static int choice4=0;
-    public static int qty4[]=new int[6];
-    public static int rate4[]=new int[6];
-    public static int price4[]=new int[6];
+    public static int qty4[]=new int[8];
+    public static int rate4[]=new int[8];
+    public static int price4[]=new int[8];
     public void menu4()
     {
         int cho4=0,d=0;
@@ -98,7 +98,7 @@ public class roti
                         qty4[7]=qty4[7]+Integer.parseInt(y4);
                         System.out.println("You have purchased"+qty4[7]+"Garlic Naan for Rs."+rate4[7]*qty4[7]);
                     }    
-                    for(d=0;d<6;d++)
+                    for(d=0;d<8;d++)
                     {
                         price4[d]=rate4[d]*qty4[d];
                         amount4=amount4+price4[d];

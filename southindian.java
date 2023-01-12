@@ -44,7 +44,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[0]=qty1[0] + Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[0]+"Sada Dosa for Rs."+rate1[0]*qty1[0]);
+                            System.out.println("You have purchased "+qty1[0]+" Sada Dosa for Rs."+rate1[0]*qty1[0]);
                         }
                         if(choice1==2)
                         {
@@ -52,7 +52,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[1]=qty1[1]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[1]+"Cheeze Dosa for Rs."+rate1[1]*qty1[1]);
+                            System.out.println("You have purchased "+qty1[1]+" Cheeze Dosa for Rs."+rate1[1]*qty1[1]);
                         }
                         if(choice1==3)
                         {
@@ -60,7 +60,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[2]=qty1[2]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[2]+"Paper Dosa for Rs."+rate1[2]*qty1[2]);
+                            System.out.println("You have purchased "+qty1[2]+" Paper Dosa for Rs."+rate1[2]*qty1[2]);
                         }
                         if(choice1==4)
                         {
@@ -68,7 +68,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[3]=qty1[3]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[3]+"Mysore Masala for Rs."+rate1[3]*qty1[3]);
+                            System.out.println("You have purchased "+qty1[3]+" Mysore Masala for Rs."+rate1[3]*qty1[3]);
                         }
                         if(choice1==5)
                         {
@@ -76,7 +76,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[4]=qty1[4]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[4]+"Sada Uttappa for Rs."+rate1[4]*qty1[4]);
+                            System.out.println("You have purchased "+qty1[4]+" Sada Uttappa for Rs."+rate1[4]*qty1[4]);
                         }
                         if(choice1==6)
                         {
@@ -84,7 +84,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[5]=qty1[5]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[5]+"Onion Uttappa for Rs."+rate1[5]*qty1[5]);
+                            System.out.println("You have purchased "+qty1[5]+" Onion Uttappa for Rs."+rate1[5]*qty1[5]);
                         }
                         if(choice1==7)
                         {
@@ -92,7 +92,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[6]=qty1[6]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[6]+"Idli for Rs."+rate1[6]*qty1[6]);
+                            System.out.println("You have purchased "+qty1[6]+" Idli for Rs."+rate1[6]*qty1[6]);
                         }
                         if(choice1==8)
                         {
@@ -100,7 +100,7 @@ public class southindian
                             System.out.println("Enter Quantity");
                             y1=buf.readLine();
                             qty1[7]=qty1[7]+Integer.parseInt(y1);
-                            System.out.println("You have purchased"+qty1[7]+"Idli-Wada for Rs."+rate1[7]*qty1[7]);
+                            System.out.println("You have purchased "+qty1[7]+" Idli-Wada for Rs."+rate1[7]*qty1[7]);
                         }        
                         for(a=0;a<9;a++)
                         {

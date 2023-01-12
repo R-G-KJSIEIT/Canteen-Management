@@ -26,14 +26,14 @@ public class beverages
                     System.out.println("3.Cold coffee...............................................30.00"); 
                     System.out.println("4.Cold Drinks...............................................46.00");
                     System.out.println("5.Kulfi Falooda.............................................35.00"); 
-                    System.out.println("6.Kjsieit's Special Falooda..................................50.00");
+                    System.out.println("6.Kjsit's Special Falooda..................................50.00");
                     System.out.println("7.Vanilla large.............................................35.00"); 
                     System.out.println("8.Strawberry large..........................................30.00");
                     System.out.println("9.Chocolate almounds........................................35.00"); 
                     BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
                     String y5=buf.readLine();
                     int choice5=Integer.parseInt(y5);                                                                                               String z5[]={"Tea","Nescafe","Cold coffee","Cold Drinks","Kulfi Falooda","Boston's Special Falooda","Vanilla large","Strawberry large","Chocolate almounds"};
-                    int rate5[]={10,16,30,46,35,30,35};
+                    int rate5[]={10,16,30,46,35,50,35,30,35};
                     if(choice5==1)
                     { 
                         z55[0]="Tea";
@@ -76,11 +76,11 @@ public class beverages
                     }
                     if(choice5==6)
                     {
-                        z55[5]="Kjsieit's Special Falooda";
+                        z55[5]="Kjsit's Special Falooda";
                         System.out.println("Enter quantity");
                         y5=buf.readLine();
                         qty5[5]=qty5[5]+Integer.parseInt(y5);
-                        System.out.println("You have purchased "+qty5[5]+" Kjsieit's Special Falooda for Rs."+rate5[5]*qty5[5]);
+                        System.out.println("You have purchased "+qty5[5]+" Kjsit's Special Falooda for Rs."+rate5[5]*qty5[5]);
                     }
                     if(choice5==7)
                     {

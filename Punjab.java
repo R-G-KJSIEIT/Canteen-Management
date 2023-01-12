@@ -39,7 +39,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[0]=qty3[0] + Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[0]+"Chana Masala for Rs."+rate3[0]*qty3[0]);
+                        System.out.println("You have purchased "+qty3[0]+" Chana Masala for Rs."+rate3[0]*qty3[0]);
                     }
                     if(choice3==2)
                     {
@@ -47,7 +47,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[1]=qty3[1]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[1]+"Alu Mutter for Rs."+rate3[1]*qty3[1]);
+                        System.out.println("You have purchased "+qty3[1]+" Alu Mutter for Rs."+rate3[1]*qty3[1]);
                     }
                     if(choice3==3)
                     {
@@ -55,7 +55,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[2]=qty3[2]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[2]+"Mutter Panner for Rs."+rate3[2]*qty3[2]);
+                        System.out.println("You have purchased "+qty3[2]+" Mutter Panner for Rs."+rate3[2]*qty3[2]);
                     }
                     if(choice3==4)
                     {
@@ -63,7 +63,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[3]=qty3[3]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[3]+"Paneer Butter Masala for Rs."+rate3[3]*qty3[3]);
+                        System.out.println("You have purchased "+qty3[3]+" Paneer Butter Masala for Rs."+rate3[3]*qty3[3]);
                     }
                     if(choice3==5)
                     {
@@ -71,7 +71,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[4]=qty3[4]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[4]+"Chole Bhuture for Rs."+rate3[4]*qty3[4]);
+                        System.out.println("You have purchased "+qty3[4]+" Chole Bhuture for Rs."+rate3[4]*qty3[4]);
                     }
                     if(choice3==6)
                     {
@@ -79,7 +79,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[5]=qty3[5]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[5]+"Veg. Kholhapuri for Rs."+rate3[5]*qty3[5]);
+                        System.out.println("You have purchased "+qty3[5]+" Veg. Kholhapuri for Rs."+rate3[5]*qty3[5]);
                     }
                     if(choice3==7)
                     {
@@ -87,7 +87,7 @@ public class Punjab
                         System.out.println("Enter Quantity");
                         y3=buf.readLine();
                         qty3[6]=qty3[6]+Integer.parseInt(y3);
-                        System.out.println("You have purchased"+qty3[6]+"Veg. Hyderabadi for Rs."+rate3[6]*qty3[6]);
+                        System.out.println("You have purchased "+qty3[6]+" Veg. Hyderabadi for Rs."+rate3[6]*qty3[6]);
                     }    
                     for(c=0;c<6;c++)
                     {
